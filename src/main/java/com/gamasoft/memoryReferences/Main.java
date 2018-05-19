@@ -24,7 +24,7 @@ public class Main{
 
         System.out.println("Start!");
 
-        ReferenceQueue<HeavyList> queue = new ReferenceQueue();
+        ReferenceQueue<HeavyList> queue = new ReferenceQueue<>();
 
         Set<Reference<HeavyList>> references = new HashSet<>();
 
